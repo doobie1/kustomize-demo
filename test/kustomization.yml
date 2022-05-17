@@ -1,0 +1,6 @@
+namespace: nginx-test
+bases:
+- ./../base
+resources:
+- namespace.yml
+namePrefix: test-

@@ -1,0 +1,6 @@
+namespace: nginx-prod
+bases:
+- ./../base
+resources:
+- namespace.yml
+namePrefix: prod-
