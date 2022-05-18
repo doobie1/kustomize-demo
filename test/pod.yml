@@ -1,0 +1,11 @@
+# pod.yaml contents
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-pod
+  labels:
+    app: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.21
