@@ -3,5 +3,4 @@ bases:
 - ./../base
 resources:
 - namespace.yml
-- pod.yml
 namePrefix: test-
